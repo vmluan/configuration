@@ -1,4 +1,7 @@
 - Role: edxapp
+  - Removed `PASSWORD_MIN_LENGTH`, `PASSWORD_MAX_LENGTH`, and `PASSWORD_COMPLEXITY` in favor of specifying these in `AUTH_PASSWORD_VALIDATORS`
+
+- Role: edxapp
   - Added `AUTH_PASSWORD_VALIDATORS` to utilize Django's password validation
 
 - Role: prospectus
