@@ -1,3 +1,6 @@
+- Role: edxapp
+  - Added `AUTH_PASSWORD_VALIDATORS` to utilize Django's password validation
+
 - Role: prospectus
   - New role added to configure the prospectus service
 
