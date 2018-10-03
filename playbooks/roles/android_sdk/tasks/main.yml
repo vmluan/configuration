@@ -34,7 +34,6 @@
   unarchive:
     copy: no
     src: /tmp/android-sdk.zip
-    # creates: "{{ android_home }}"
     dest: "{{ android_home }}"
     owner: "{{ android_user }}"
     group: "{{ android_group }}"
@@ -42,7 +41,7 @@
 # Use the android sdk manager to install the build targets necessary for the edx mobile app
 - name: Install Android API levels 
   shell: "echo 'y' | {{ android_home }}/tools/bin/sdkmanager  {{ android_build_targets }}" 
-  become: yespw
+  become: yes
   become_user: "{{ android_user }}"
 # Put Android package names into a list for easier installation command
 - name: Gather Android packages to download into a list
@@ -75,7 +74,7 @@
 # Download Android System Image to run emulator 
 - name: Download Android System Image
   shell: "echo 'y' | {{ android_home }}/tools/bin/sdkmanager  {{ android_sys_image }}" 
-  become: yespw
+  become: yes
   become_user: "{{ android_user }}"
 
 
