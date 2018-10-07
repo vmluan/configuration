@@ -1,5 +1,5 @@
-FROM edxops/xenial-common:latest
-MAINTAINER edxops
+FROM horusvn/xenial-common:latest
+MAINTAINER horusvn
 
 WORKDIR /edx/app/edx_ansible/edx_ansible/docker/plays
 ADD . /edx/app/edx_ansible/edx_ansible

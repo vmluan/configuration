@@ -8,7 +8,7 @@
 # with the currently checked-out configuration repo.
 
 ARG BASE_IMAGE_TAG=latest
-FROM edxops/xenial-common:${BASE_IMAGE_TAG}
+FROM horusvn/xenial-common:${BASE_IMAGE_TAG}
 MAINTAINER edxops
 
 ADD . /edx/app/edx_ansible/edx_ansible

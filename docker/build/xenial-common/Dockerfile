@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER edxops
+MAINTAINER horusvn
 
 # Set locale to UTF-8 which is not the default for docker.
 # See the links for details:

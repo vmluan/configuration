@@ -272,6 +272,11 @@ EDXAPP_SHOW_HEADER_LANGUAGE_SELECTOR: false
 # Display a language selector in the LMS footer.
 EDXAPP_SHOW_FOOTER_LANGUAGE_SELECTOR: false
 
+# Luan add following items to enable mobile access:
+EDXAPP_ENABLE_MOBILE_REST_API: true
+EDXAPP_ENABLE_OAUTH2_PROVIDER: true
+EDXAPP_ENABLE_COMBINED_LOGIN_REGISTRATION: true
+
 # Configure x_frame_options in LMS/CMS
 EDXAPP_X_FRAME_OPTIONS: "DENY"
 
@@ -286,7 +291,7 @@ EDXAPP_FEATURES:
   ENABLE_THIRD_PARTY_AUTH: "{{ EDXAPP_ENABLE_THIRD_PARTY_AUTH }}"
   ENABLE_VIDEO_UPLOAD_PIPELINE: false
   ENABLE_DISCUSSION_HOME_PANEL: true
-  ENABLE_COMBINED_LOGIN_REGISTRATION: true
+  ENABLE_COMBINED_LOGIN_REGISTRATION: "{{ EDXAPP_ENABLE_COMBINED_LOGIN_REGISTRATION }}"
   ENABLE_CORS_HEADERS: false
   ENABLE_CROSS_DOMAIN_CSRF_COOKIE: false
   ENABLE_COUNTRY_ACCESS: false
@@ -1504,7 +1509,7 @@ edxapp_theme_source_repo: 'https://{{ COMMON_GIT_MIRROR }}/Stanford-Online/edx-t
 edxapp_theme_version: 'master'
 
 # make this the public URL instead of writable
-edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/edx/edx-platform.git"
+edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/vmluan/edx-platform.git"
 # `edx_platform_version` can be anything that git recognizes as a commit
 # reference, including a tag, a branch name, or a commit hash
 edx_platform_version: 'release'
