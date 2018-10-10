@@ -1,5 +1,5 @@
-FROM edxops/xenial-common:latest
-MAINTAINER edxops
+FROM horusvn/xenial-common:latest
+MAINTAINER horusvn
 
 USER root
 RUN apt-get update

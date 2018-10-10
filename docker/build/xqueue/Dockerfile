@@ -8,8 +8,8 @@
 # with the currently checked-out configuration repo.
 
 ARG BASE_IMAGE_TAG=latest
-FROM edxops/xenial-common:${BASE_IMAGE_TAG}
-MAINTAINER edxops
+FROM horusvn/xenial-common:${BASE_IMAGE_TAG}
+MAINTAINER horusvn
 CMD ["/edx/app/supervisor/venvs/supervisor/bin/supervisord", "-n", "--configuration", "/edx/app/supervisor/supervisord.conf"]
 
 USER root

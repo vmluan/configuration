@@ -7,8 +7,8 @@
 # This allows the dockerfile to update /edx/app/edx_ansible/edx_ansible
 # with the currently checked-out configuration repo.
 
-FROM edxops/xenial-common:latest
-MAINTAINER edxops
+FROM horusvn/xenial-common:latest
+MAINTAINER horusvn
 
 ARG {{ role_name|upper }}_VERSION=master
 ARG REPO_OWNER=edx

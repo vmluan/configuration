@@ -1,5 +1,5 @@
-FROM edxops/xenial-common:latest
-MAINTAINER edxops
+FROM horusvn/xenial-common:latest
+MAINTAINER horusvn
 
 ADD . /edx/app/edx_ansible/edx_ansible
 COPY docker/build/rabbitmq/ansible_overrides.yml /

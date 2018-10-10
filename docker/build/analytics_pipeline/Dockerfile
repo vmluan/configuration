@@ -1,6 +1,6 @@
 ARG BASE_IMAGE_TAG=latest
-FROM edxops/xenial-common:${BASE_IMAGE_TAG}
-MAINTAINER edxops
+FROM horusvn/xenial-common:${BASE_IMAGE_TAG}
+MAINTAINER horusvn
 
 USER root
 ENV BOTO_CONFIG=/dev/null \
