@@ -200,8 +200,7 @@ EDXAPP_ENABLE_AUTO_AUTH: false
 # Settings for enabling and configuring third party authorization
 EDXAPP_ENABLE_THIRD_PARTY_AUTH: true
 EDXAPP_ENABLE_OAUTH2_PROVIDER: false
-
-EDXAPP_ENABLE_MOBILE_REST_API: false
+EDXAPP_ENABLE_MOBILE_REST_API: true
 
 # Settings for API access management
 EDXAPP_API_ACCESS_MANAGER_EMAIL: "api-access@example.com"
@@ -273,8 +272,6 @@ EDXAPP_SHOW_HEADER_LANGUAGE_SELECTOR: false
 EDXAPP_SHOW_FOOTER_LANGUAGE_SELECTOR: false
 
 # Luan add following items to enable mobile access:
-EDXAPP_ENABLE_MOBILE_REST_API: true
-EDXAPP_ENABLE_OAUTH2_PROVIDER: true
 EDXAPP_ENABLE_COMBINED_LOGIN_REGISTRATION: true
 
 # Configure x_frame_options in LMS/CMS
