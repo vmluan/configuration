@@ -180,7 +180,7 @@ EDXAPP_PARTNER_SUPPORT_EMAIL: ''
 # ISO-8601 formatted date string, or null
 EDXAPP_AUDIT_CERT_CUTOFF_DATE: null
 
-EDXAPP_PLATFORM_NAME: 'Your Platform Name Here'
+EDXAPP_PLATFORM_NAME: 'HORUS Elearning System'
 EDXAPP_PLATFORM_DESCRIPTION: 'Your Platform Description Here'
 EDXAPP_STUDIO_NAME: 'Studio'
 EDXAPP_STUDIO_SHORT_NAME: 'Studio'
@@ -198,9 +198,9 @@ EDXAPP_CAS_ATTRIBUTE_PACKAGE: ""
 EDXAPP_ENABLE_AUTO_AUTH: false
 # Settings for enabling and configuring third party authorization
 EDXAPP_ENABLE_THIRD_PARTY_AUTH: true
-EDXAPP_ENABLE_OAUTH2_PROVIDER: false
+EDXAPP_ENABLE_OAUTH2_PROVIDER: true
 
-EDXAPP_ENABLE_MOBILE_REST_API: false
+EDXAPP_ENABLE_MOBILE_REST_API: true
 
 # Settings for API access management
 EDXAPP_API_ACCESS_MANAGER_EMAIL: "api-access@example.com"

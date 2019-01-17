@@ -21,7 +21,7 @@
     - install
     - install:configuration
 
-- name: Create nginx app and data dirs
+- name: Create nginx app and data dirs. Luan testing
   file:
     path: "{{ item.path }}"
     state: directory
@@ -59,7 +59,7 @@
     - install
     - install:system-requirements
 
-- name: Add nginx repository
+- name: Add nginx repository. Why error????.
   apt_repository:
     repo: "{{ NGINX_APT_REPO }}"
     state: present
