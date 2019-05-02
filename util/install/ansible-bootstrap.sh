@@ -148,7 +148,8 @@ if [[ "true" == "${RUN_ANSIBLE}" ]]; then
     # Install the configuration repository to install
     # edx_ansible role
     git clone ${CONFIGURATION_REPO} ${CONFIGURATION_DIR}
-    cd ${CONFIGURATION_DIR}
+    echo "===============Luan testing=============="
+    echo "CONFIGURATION_VERSION is ${CONFIGURATION_VERSION}"
     git checkout ${CONFIGURATION_VERSION}
     make requirements
 
