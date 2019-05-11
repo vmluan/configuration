@@ -351,16 +351,16 @@ EDXAPP_HELP_TOKENS_BOOKS:
     learner: "http://edx.readthedocs.io/projects/open-edx-learner-guide"
     course_author: "http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course"
 
-EDXAPP_TECH_SUPPORT_EMAIL: 'technical@example.com'
-EDXAPP_CONTACT_EMAIL: 'info@example.com'
-EDXAPP_BUGS_EMAIL: 'bugs@example.com'
-EDXAPP_DEFAULT_FROM_EMAIL: 'registration@example.com'
-EDXAPP_DEFAULT_FEEDBACK_EMAIL: 'feedback@example.com'
-EDXAPP_DEFAULT_SERVER_EMAIL: 'devops@example.com'
-EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: 'no-reply@example.com'
-EDXAPP_BULK_EMAIL_LOG_SENT_EMAILS: false
-EDXAPP_UNIVERSITY_EMAIL: 'university@example.com'
-EDXAPP_PRESS_EMAIL: 'press@example.com'
+EDXAPP_TECH_SUPPORT_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_CONTACT_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_BUGS_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_DEFAULT_FROM_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_DEFAULT_FEEDBACK_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_DEFAULT_SERVER_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_BULK_EMAIL_DEFAULT_FROM_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_BULK_EMAIL_LOG_SENT_EMAILS: true
+EDXAPP_UNIVERSITY_EMAIL: 'horus.qip@gmail.com'
+EDXAPP_PRESS_EMAIL: 'horus.qip@gmail.com'
 EDXAPP_LMS_ROOT_URL: "{{ EDXAPP_LMS_BASE_SCHEME | default('https') }}://{{ EDXAPP_LMS_BASE }}"
 EDXAPP_LMS_INTERNAL_ROOT_URL: "{{ EDXAPP_LMS_ROOT_URL }}"
 
@@ -380,7 +380,7 @@ EDXAPP_FACEBOOK_APP_ID: "FACEBOOK_APP_ID"
 EDXAPP_FACEBOOK_APP_SECRET: "FACEBOOK_APP_SECRET"
 EDXAPP_FACEBOOK_API_VERSION: "v2.1"
 
-EDXAPP_CONTACT_MAILING_ADDRESS: 'SET-ME-PLEASE'
+EDXAPP_CONTACT_MAILING_ADDRESS: 'horus.qip@gmail.com'
 
 EDXAPP_SOCIAL_MEDIA_FOOTER_URLS: {}
 EDXAPP_MOBILE_STORE_URLS: {}
